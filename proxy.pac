@@ -6,15 +6,18 @@ function FindProxyForURL(url, host) {
       shExpMatch(host, "*.aparat.com") ||
       shExpMatch(host, "*.digikala.com") ||
       shExpMatch(host, "*.p30download.com") ||
-      shExpMatch(host, "*.soft98.ir") ||
-      shExpMatch(host, "*.speedtest.net") ||
+      shExpMatch(host, "*.soft98.ir"
+      shExpMatch(host, "*speedtest.net"
+      ) ||
       host == "emofid.com" ||
       host == "faraz.io" ||
       host == "chatgpt.com" ||
       host == "aparat.com" ||
       host == "digikala.com" ||
       host == "p30download.com" ||
-      host == "speedtest.net") {
+      host == "soft98.ir"
+      host == "speedtest.net"
+) {
     return "DIRECT";
   }
 
