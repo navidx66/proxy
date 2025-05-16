@@ -8,6 +8,7 @@ function FindProxyForURL(url, host) {
       shExpMatch(host, "*.p30download.com") ||
       shExpMatch(host, "*.soft98.ir"
       shExpMatch(host, "*speedtest.net"
+      shExpMatch(host, "*shecan.ir"
       ) ||
       host == "emofid.com" ||
       host == "faraz.io" ||
@@ -17,6 +18,7 @@ function FindProxyForURL(url, host) {
       host == "p30download.com" ||
       host == "soft98.ir"
       host == "speedtest.net"
+      host == "shecan.ir"
 ) {
     return "DIRECT";
   }
